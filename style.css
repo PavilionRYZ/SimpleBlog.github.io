@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    height: auto;
+}
+/* code for the header portion */
+.header{
+    width: 100vw;
+    height: 3rem;
+    margin: 2rem;
+    display: grid;
+
+}
+.header p
+{
+    display: grid;
+    justify-content: start;
+}
+.title{
+    display: grid;
+    justify-content: center;
+}
+/* end of header  */
+/* start container  */
+.container{
+    width: 70vw;
+    height: auto;
+    margin:1rem auto;
+    display: grid;
+    grid-template-rows: 4fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+
+}
+.box1,.box2{
+    display: flex;
+    /* width: 20vw; */
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3rem;
+    border: 10px solid rgba(128, 128, 128, 0.749);
+    margin: 1rem;
+}
