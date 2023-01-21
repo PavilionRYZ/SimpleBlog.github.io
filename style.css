@@ -15,6 +15,9 @@
     display: grid;
 
 }
+.title{
+    text-decoration: underline;
+}
 .header p
 {
     display: grid;
@@ -27,14 +30,14 @@
 /* end of header  */
 /* start container  */
 .container{
-    width: 70vw;
-    height: auto;
+    width: 90vw;
+    /* height: auto; */
     margin:1rem auto;
     display: grid;
-    grid-template-rows: 4fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(2,1fr);
-    justify-content: space-between;
-
+    /* justify-content: space-between; */
+   gap: 1rem;
 }
 .box1,.box2{
     display: flex;
@@ -43,6 +46,23 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 3rem;
-    border: 10px solid rgba(128, 128, 128, 0.749);
+    border: 8px solid rgba(128, 128, 128, 0.261);
     margin: 1rem;
+}
+.b_title{
+    color: rgb(12, 123, 12);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.b_text{
+    color: black;
+}
+.date{
+    margin-bottom: 1rem;
+}
+.b_text{
+    margin-bottom: 1rem;
+}
+.continue{
+margin: 0;
 }
